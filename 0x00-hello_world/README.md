@@ -50,3 +50,12 @@ Write a C program that prints the size of various types on the computer it is co
 
 [`100-intel`](100-intel)
 Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file. The C file name will be saved in the variable main.c. The output file should be named the same as the C file, but with the extension .s instead of .c. Example: if the C file is main.c, the output file should be main.s
+
+[`101-quote.c`](101-quote.c)
+Write a C program that prints exactly and that piece of art is useful
+
+[`101-quote.c`](101-quote.c)
+Write a C program that prints exactly and that piece of art is useful
+
+[`101-quote.c`](101-quote.c)
+Write a C program that prints exactly and that piece of art is useful
