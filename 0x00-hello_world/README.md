@@ -44,3 +44,9 @@ Write a C program that prints exactly with proper grammar, but the outcome is a 
 
 [`6-size.c`](6-size.c)
 Write a C program that prints the size of various types on the computer it is compiled and run on. \n\* You should produce the exact same output as in the example \n\* Warnings are allowed \n\* Your program should return 0 \n\* You might have to install the package libc6-dev-i386 on your Linux to test the -m32 gcc option
+
+[``]()
+
+
+[`100-intel`](100-intel)
+Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file. The C file name will be saved in the variable main.c. The output file should be named the same as the C file, but with the extension .s instead of .c. Example: if the C file is main.c, the output file should be main.s
