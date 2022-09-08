@@ -59,7 +59,7 @@ Write a script that generates the assembly code (Intel syntax) of a C code and s
 `Example: if the C file is main.c, the output file should be main.s`
 
 
-[`101-quote.c`](101-quote.c)
+## [`101-quote.c`](101-quote.c)
 Write a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
 
 * You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts
