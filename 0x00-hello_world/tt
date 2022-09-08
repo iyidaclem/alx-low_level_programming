@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo "" >> README.md && echo "[\`$1\`]($1)" >> README.md
-
-echo '#!/bin/bash' >> $1 && chmod u+x $1 &&  vim $1
-
