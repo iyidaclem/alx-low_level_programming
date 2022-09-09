@@ -15,11 +15,11 @@ int main(void)
 	c = 0;
 	while (i < 56)
 	{
-		while(j < 57)
+		while (j < 57)
 		{
-			while(k < 58)
+			while (k < 58)
 			{
-				if(c==1)
+				if (c == 1)
 				{
 					putchar(',');
 					putchar(' ');
