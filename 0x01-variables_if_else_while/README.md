@@ -6,7 +6,7 @@ Learning conditional statement in C programming language
 All of the following files are scripts:
 
 
-[`0-positive_or_negative`](0-positive_or_negative)
+## [`0-positive_or_negative`](0-positive_or_negative)
 This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
 You can find the source code [here](https://alx-intranet.hbtn.io/rltoken/rrqNDWjrCWdARnWFLPExPw)
 * The variable n will store a different value every time you will run this program
@@ -18,7 +18,7 @@ You can find the source code [here](https://alx-intranet.hbtn.io/rltoken/rrqNDWj
 * if the number is less than 0: is negative
 * followed by a new line
 
-[`1-last_digit.c`](1-last_digit.c)
+## [`1-last_digit.c`](1-last_digit.c)
 This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n
 * You can find the source code [here](https://alx-intranet.hbtn.io/rltoken/5HWhPDsq3jq1yCRQFrLl4Q)
 * The variable n will store a different value every time you run this program
@@ -32,30 +32,30 @@ This program will assign a random number to the variable n each time it is execu
 *       - if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
 *       - followed by a new line
 
-[`2-print_alphabet.c`](2-print_alphabet.c)
+## [`2-print_alphabet.c`](2-print_alphabet.c)
 Write a program that prints the alphabet in lowercase, followed by a new line.
 * You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 * All your code should be in the main function
 * You can only use putchar twice in your code
 
-[`3-print_alphabets.c`](3-print_alphabets.c)
-Write a program that prints the alphabet in lowercase, followed by a new line.
-* Print all the letters except q and e
-* You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
-* All your code should be in the main function
-* You can only use putchar twice in your code
-
-[`4-print_alphabt.c`](4-print_alphabt.c)
+## [`3-print_alphabets.c`](3-print_alphabets.c)
 Write a program that prints the alphabet in lowercase, followed by a new line.
 * Print all the letters except q and e
 * You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 * All your code should be in the main function
 * You can only use putchar twice in your code
 
-[`5-print_numbers.c`](5-print_numbers.c)
+## [`4-print_alphabt.c`](4-print_alphabt.c)
+Write a program that prints the alphabet in lowercase, followed by a new line.
+* Print all the letters except q and e
+* You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+* All your code should be in the main function
+* You can only use putchar twice in your code
+
+## [`5-print_numbers.c`](5-print_numbers.c)
 Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 
-[`6-print_numberz.c`](6-print_numberz.c)
+## [`6-print_numberz.c`](6-print_numberz.c)
 Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 * You are not allowed to use any variable of type char
 * You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
