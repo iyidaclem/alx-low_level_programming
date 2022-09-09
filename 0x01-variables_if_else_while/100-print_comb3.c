@@ -8,13 +8,13 @@
 int main(void)
 {
 	int i, e, c;
-	
+
 	i = 48;
 	e = 49;
 	c = 0;
-	while(e<58)
+	while (e < 58)
 	{
-		if(c==1)
+		if (c == 1)
 		{
 			putchar(',');
 			putchar(' ');
@@ -22,11 +22,11 @@ int main(void)
 		putchar(i);
 		putchar(e++);
 		c = 1;
-		if(e==58)
-		{	
+		if (e == 58)
+		{
 			i++;
-			e = i+1;
-			if(i==58)
+			e = i + 1;
+			if (i == 58)
 			{
 				break;
 			}
