@@ -2,7 +2,7 @@
 
 /**
 *main - Entry point
-*Description: Calls the function _islower()
+*Description: Calls the function print_sign()
 *Return: Success (0)
 */
 
