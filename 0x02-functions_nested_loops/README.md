@@ -3,7 +3,7 @@
 ## Files
 Below are the names of files and the description of the task that was solved inside:
 
-[0-putchar.c](0-putchar.c)
+## [0-putchar.c](0-putchar.c)
 Write a program that prints _putchar, followed by a new line.
 
 * The program should return 0
@@ -42,3 +42,8 @@ Returns 0 and prints 0 if n is zero
 Write a function that computes the absolute value of an integer.
 * Prototype: int _abs(int);
 * FYI: The standard library provides a similar function: abs. Run man abs to learn more.
+
+## [`7-print_last_digit.c`](7-print_last_digit.c)
+Write a function that prints the last digit of a number.
+* Prototype: int print_last_digit(int);
+* Returns the value of the last digit
