@@ -1,5 +1,5 @@
-#include <stdio.h>
-
+#include "main.h"
+#include "_putchar.c"
 /**
 *main - Entry point of the program
 *Description:  program that prints _putchar, followed by a new line.
@@ -11,12 +11,12 @@ int main(void)
 	char mychars[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	int i = 0;
 
-	while (i < sizeof(mychars) / sizeof(mychars[0]))
+	while (i < 8)
 	{
-		putchar(mychars[i]);
+		_putchar(mychars[i]);
 		i++;
 
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
