@@ -13,3 +13,4 @@ The following projects were covered in this module
 | [`0x00-hello_world`](0x00-hello_world) |Basics of C programming |
 | [`0x01-variables_if_else_while`](0x01-variables_if_else_while) | variables and conditional statements |
 | ['0x02-functions_nested_loops'](0x02-functions_nested_loops)| Functions, nested loops|
+| ['0x03-debugging'](0x03-debugging)| C - Debugging|
