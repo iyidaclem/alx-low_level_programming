@@ -21,9 +21,9 @@ int main(void)
 	prev = 0;
 
 	for (a = 0; a < 50; a++)
-	{	
+	{
 		prev = current;
-		current+=sum;
+		current += sum;
 		sum = prev;
 		if (a == 49)
 		{
