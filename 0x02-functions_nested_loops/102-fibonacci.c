@@ -20,7 +20,7 @@ int main(void)
 	current = 1;
 	prev = 0;
 
-	for (a = 0; a < 100; a++)
+	for (a = 0; a < 50; a++)
 	{	
 		prev = current;
 		current+=sum;
