@@ -25,7 +25,7 @@ int main(void)
 		prev = current;
 		current+=sum;
 		sum = prev;
-		if (a == 99)
+		if (a == 49)
 		{
 			printf("%ld\n", current);
 		}
