@@ -78,3 +78,9 @@ Prototype: void print_times_table(int n);
 
 ## [`101-natural.c`](101-natural.c)
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Write a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
+
+## [`102-fibonacci.c`](102-fibonacci.c)
+Write a program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+The numbers must be separated by comma, followed by a space , "
+
+You are allowed to use the standard library
