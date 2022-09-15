@@ -20,8 +20,15 @@ void more_numbers(void)
 				_putchar(j++ + '0');
 			else
 			{
-				_putchar((j / 10) + '0');
-				_putchar((j++ % 10) + '0');
+				char k = ((j / 10) + '0');
+				int m = 0;
+
+				while (m++ < 2)
+				{
+					_putchar(k);
+					k = ((j % 10) + '0');
+				}
+				j++;
 			}
 		}
 		_putchar('\n');
