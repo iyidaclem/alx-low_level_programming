@@ -8,7 +8,7 @@
 int main(void)
 {
 	print_diagonal(0);
-	print_diagonal(30);
-	print_diagonal(15);
+	print_diagonal(3);
+	print_diagonal(5);
 	return (0);
 }
