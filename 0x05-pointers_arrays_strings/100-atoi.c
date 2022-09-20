@@ -9,15 +9,16 @@
 
 int _atoi(char *s)
 {
-	int i, k, l, t;
-	char last_sign = 'd';
+	int i, k, l, t, m;
 
 	t = 0;
 	k = 0;
 	l = strlen(s);
+	m = 1;
 
 	for (i = 0; i < l; i++)
 	{
+
 		if (*(s + i) >= '0' && *(s + i) <= '9')
 		{
 			t *= 10;
@@ -27,14 +28,11 @@ int _atoi(char *s)
 	{
 		break;
 	}
-	else
+	else if (*(s + i) == '-')
 	{
-		last_sign = *(s + i);
-		if (last_sign == '-')
-		{
-			k = 1;
-		}
+		m *= -1;
+		k = 1;
 	}
 	}
-	return (last_sign == '-' ? (t * -1) : t);
+	return (t * m);
 }
