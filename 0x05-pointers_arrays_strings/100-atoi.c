@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
+#include <limits.h>
+
 /**
 * _atoi - convert string to integer
 *@s: string to convert
@@ -21,6 +23,8 @@ int _atoi(char *s)
 		if (*(s + i) >= '0' && *(s + i) <= '9')
 		{
 			t = (int) (t * 10);
+			if((int) *(s + i) - '0' > INT_MAX || (int) *(s + i) - '0' < INT_MIN)
+				break;
 			t += (int) *(s + i) - '0';
 		}
 	else if (t != 0 && k == 1)
