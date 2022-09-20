@@ -62,3 +62,6 @@ You are not allowed to use long
 You are not allowed to declare new variables of “type” array
 You are not allowed to hard-code special values
 We will use the -fsanitize=signed-integer-overflow gcc flag to compile your code.
+
+## [`101-keygen.c`](101-keygen.c)
+Create a program that generates random valid passwords for the program 101-crackme.
