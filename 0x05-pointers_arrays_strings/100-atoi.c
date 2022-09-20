@@ -9,14 +9,13 @@
 
 int _atoi(char *s)
 {
-	int i, k, l, t, m;
+	int i, k, t, m;
 
 	t = 0;
 	k = 0;
-	l = strlen(s);
 	m = 1;
 
-	for (i = 0; i < l; i++)
+	for (i = 0; *(s + i) != '\0'; i++)
 	{
 
 		if (*(s + i) >= '0' && *(s + i) <= '9')
