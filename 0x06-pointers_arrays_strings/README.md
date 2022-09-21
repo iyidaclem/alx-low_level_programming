@@ -34,4 +34,10 @@ Prototype: void reverse_array(int *a, int n);
 Where n is the number of elements of the array
 
 ## [`5-string_toupper.c`](5-string_toupper.c)
-Write a function that changes all lowercase letters of a string to uppercase. Prototype: char *string_toupper(char *);
+Write a function that changes all lowercase letters of a string to uppercase.
+Prototype: char *string_toupper(char *);
+
+## [`6-cap_string.c`](6-cap_string.c)
+Write a function that capitalizes all words of a string. 
+Prototype: char *cap_string(char *); 
+Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
