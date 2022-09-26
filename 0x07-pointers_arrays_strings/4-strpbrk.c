@@ -4,7 +4,7 @@
 /**
 *_strpbrk - function that searches a string for any of a set of bytes.
 *@s: Main the string
-*accept: search string
+*@accept: search string
 *Return: pointer to the found string
 */
 
