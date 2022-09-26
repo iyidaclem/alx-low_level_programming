@@ -17,3 +17,4 @@ The following projects were covered in this module
 | [`0x04-more_functions_nested_loops`](0x04-more_functions_nested_loops)| C - More functions, more nested loops|
 | [`0x05-pointers_arrays_strings`](0x05-pointers_arrays_strings)|C - Pointers, arrays and strings|
 | [`0x06-pointers_arrays_strings`](0x06-pointers_arrays_strings)|C - More pointers, arrays and strings|
+| [`0x07-pointers_arrays_strings`](0x07-pointers_arrays_strings)|C - Even more pointers, arrays and strings|
