@@ -28,3 +28,6 @@ Write a function that returns 1 if the input integer is a prime number, otherwis
 
 ## [`100-is_palindrome.c`](100-is_palindrome.c)
 Write a function that returns 1 if a string is a palindrome and 0 if not. Prototype: int is_palindrome(char *s); An empty string is a palindrome
+
+## [`101-wildcmp.c`](101-wildcmp.c)
+Write a function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0. Prototype: int wildcmp(char *s1, char *s2); s2 can contain the special character *. The special char 0-main.c 0-puts_recursion.c 1-main.c 1-print_rev_recursion.c 100-is_palindrome.c 100-main.c 2-main.c 2-strlen_recursion.c 3-factorial.c 3-main.c 4-main.c 4-pow_recursion.c 5-main.c 5-sqrt_recursion.c 6-is_prime_number.c 6-main.c README.md _putchar.c main.h out can replace any string (including an empty string)
