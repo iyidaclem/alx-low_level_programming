@@ -19,3 +19,4 @@ The following projects were covered in this module
 | [`0x06-pointers_arrays_strings`](0x06-pointers_arrays_strings)|C - More pointers, arrays and strings|
 | [`0x07-pointers_arrays_strings`](0x07-pointers_arrays_strings)|C - Even more pointers, arrays and strings|
 | [`0x08-recursion`](0x08-recursion)|C - Recursion|
+| [`0x0A-argc_argv`](0x0A-argc_argv)|C - argc, argv|
