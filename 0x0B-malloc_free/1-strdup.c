@@ -9,21 +9,24 @@
 *@str: string parameter
 *Return: pointer
 */
-
 char *_strdup(char *str)
 {
-	char *cc;
-	int i = 0;
+	char *strout;
+	unsigned int i, j;
 
-	cc = malloc(sizeof(str));
-
-	if (cc == NULL)
+	if (str == NULL)
 		return (NULL);
 
-	while (*(str + i) != '\0')
-	{
-		*(cc + i) = *(str + i);
-		i++;
-	}
-	return (cc);
+	for (i = 0; str[i] != '\0'; i++)
+		;
+
+	strout = (char *)malloc(sizeof(char) * (i + 1));
+
+	if (strout == NULL)
+		return (NULL);
+
+	for (j = 0; j <= i; j++)
+		strout[j] = str[j];
+
+	return (strout);
 }
