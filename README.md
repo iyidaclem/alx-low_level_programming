@@ -20,3 +20,5 @@ The following projects were covered in this module
 | [`0x07-pointers_arrays_strings`](0x07-pointers_arrays_strings)|C - Even more pointers, arrays and strings|
 | [`0x08-recursion`](0x08-recursion)|C - Recursion|
 | [`0x0A-argc_argv`](0x0A-argc_argv)|C - argc, argv|
+| [`0x09-static_libraries`](0x09-static_libraries)|C - Static libraries|
+| [`0x0B-malloc_free`](0x0B-malloc_free)|0x0B. C - malloc, free|
