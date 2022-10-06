@@ -6,8 +6,8 @@
 *string_nconcat - function that concatenates two strings.
 *@s1: first string
 *@s2: second string
-*n: length of subsstring of s2 to concatenate
-*Return: pointer concatenated string 
+*@n: length of subsstring of s2 to concatenate
+*Return: pointer concatenated string
 */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
