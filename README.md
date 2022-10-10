@@ -23,3 +23,5 @@ The following projects were covered in this module
 | [`0x09-static_libraries`](0x09-static_libraries)|C - Static libraries|
 | [`0x0B-malloc_free`](0x0B-malloc_free)|C - malloc, free|
 | [`0x0C-more_malloc_free`](0x0C-more_malloc_free)|C - More malloc, free|
+| [`0x0E-structures_typedef`](0x0E-structures_typedef)|C - Structures, typedef
+C|
