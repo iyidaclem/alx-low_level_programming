@@ -12,3 +12,6 @@ Create a header file that defines a macro named PI as an abbreviation for the to
 ## [`2-main.c`](2-main.c)
 Write a program that prints the name of the file it was compiled from, followed by a new line.
 You are allowed to use the standard library
+
+## [`3-function_like_macro.h`](3-function_like_macro.h)
+Write a function-like macro ABS(x) that computes the absolute value of a number x.
