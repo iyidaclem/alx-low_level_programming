@@ -1,36 +1,14 @@
-## C - Structures, typedef
+## C - Preprocessor
 
 ## Files
 Below are the names of files and the description of the task that was solved inside:
 
-
-## [`dog.h`](dog.h)
-Define a new type struct dog with the following elements:
-name, type = char *
-age, type = float
-owner, type = char *
-
-## [`1-init_dog.c`](1-init_dog.c)
-Write a function that initialize a variable of type struct dog
-Prototype: void init_dog(struct dog *d, char *name, float age, char *owner);
-
-## [`2-print_dog.c`](2-print_dog.c)
-Write a function that prints a struct dog
-Prototype: void print_dog(struct dog *d);
-Format: see example bellow
-You are allowed to use the standard library
-If an element of d is NULL, print (nil) instead of this element. (if name is NULL, print Name: (nil))
-If d is NULL print nothing.
-
-## [`4-new_dog.c`](4-new_dog.c)
-function that creates a new dog.
-Prototype: dog_t *new_dog(char *name, float age, char *owner);
-You have to store a copy of name and owner
-Return NULL if the function fails
-
-## [`5-free_dog.c`](5-free_dog.c)
-Write a function that frees dogs.
-Prototype:
-
 ## [`0-object_like_macro.h`](0-object_like_macro.h)
 Create a header file that defines a macro named SIZE as an abbreviation for the token 1024.
+
+## [`1-pi.h`](1-pi.h)
+Create a header file that defines a macro named PI as an abbreviation for the token 3.14159265359.
+
+## [`2-main.c`](2-main.c)
+Write a program that prints the name of the file it was compiled from, followed by a new line.
+You are allowed to use the standard library
