@@ -27,3 +27,4 @@ The following projects were covered in this module
 | [`0x0E-structures_typedef`](0x0E-structures_typedef)|C - Structures, typedef|
 | [`0x0F-function_pointers`](0x0F-function_pointers)|C - Function pointers|
 | [`0x10-variadic_functions`](0x10-variadic_functions)|C - Variadic functions|
+| [`0x12-singly_linked_lists`](0x12-singly_linked_lists)|C - Singly linked lists|
