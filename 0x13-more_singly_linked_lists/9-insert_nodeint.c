@@ -31,7 +31,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 			break;
 		}
 		temp_el = temp_el->next;
-		if (temp_el == NULL &&  i != idx)
+		if (temp_el == NULL &&  i + 1 != idx)
 			return (NULL);
 	}
 	return (new_el);
