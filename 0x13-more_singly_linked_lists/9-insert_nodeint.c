@@ -22,7 +22,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	new_el->n = n;
 	if (temp_el == NULL)
 	{
-		if(idx == 0)
+		if (idx == 0)
 		{
 			*head = new_el;
 			return (new_el);
@@ -35,7 +35,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	}
 	for (i = 0; i <= idx; i++)
 	{
-		if(idx == 0)
+		if (idx == 0)
 		{
 			new_el->next = temp_el;
 			(*head) = new_el;
