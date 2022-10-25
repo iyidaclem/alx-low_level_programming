@@ -20,10 +20,17 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	if (new_el == NULL)
 		return (NULL);
 	new_el->n = n;
-	if (temp_el == NULL &&  i != idx)
+	if (temp_el == NULL)
 	{
-		free(new_el);
-		return (NULL);
+		if(idx == 0)
+		{
+			*head = new_el;
+			return (new_el);
+		}
+		else
+		{
+			return (NULL);
+		}
 	}
 	for (i = 0; i < idx; i++)
 	{
