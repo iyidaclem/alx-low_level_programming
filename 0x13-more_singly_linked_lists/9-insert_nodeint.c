@@ -29,6 +29,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		}
 		else
 		{
+			free(new_el);
 			return (NULL);
 		}
 	}
@@ -36,6 +37,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	{
 		if (i == idx - 1)
 		{
+
 			new_el->next = temp_el->next;
 			temp_el->next = new_el;
 			break;
