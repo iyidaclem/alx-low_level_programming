@@ -35,3 +35,8 @@ Write a function that sets the value of a bit to 0 at a given index.\
 Write a function that returns the number of bits you would need to flip to get from one number to another.\
 	      Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);\
 	      You are not allowed to use the % or / operators
+
+## [`100-get_endianness.c`](100-get_endianness.c)
+Write a function that checks the endianness.\
+	      Prototype: int get_endianness(void);\
+	      Returns: 0 if big endian, 1 if little endian
