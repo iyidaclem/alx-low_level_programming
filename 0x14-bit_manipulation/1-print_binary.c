@@ -10,6 +10,7 @@
 void print_binary(unsigned long int n)
 {
 	unsigned long int num, dnum;
+	char c;
 
 	num = n;
 	dnum = n >> 1;
@@ -17,6 +18,7 @@ void print_binary(unsigned long int n)
 	{
 		print_binary(dnum);
 	}
-	printf("%lu", (num - (2 * dnum)));
+	c = (num - (2 * dnum)) + 48;
+	_putchar(c);
 }
 
