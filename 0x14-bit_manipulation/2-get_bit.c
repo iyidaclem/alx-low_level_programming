@@ -53,5 +53,7 @@ int _get_bit(unsigned long int n, unsigned int index, unsigned int counter)
 
 int get_bit(unsigned long int n, unsigned int index)
 {
+	if (n == 0 && index < 64)
+		return (0);
 	return (_get_bit(n, index, 0));
 }
