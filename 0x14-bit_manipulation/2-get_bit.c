@@ -38,7 +38,7 @@ int _get_bit(unsigned long int n, unsigned int index, unsigned int counter)
 	{
 		return (_get_bit(dnum, index, counter + 1));
 	}
-	if(index > counter)
+	if (index > counter)
 		return (-1);
 	return (num - (2 * dnum));
 }
