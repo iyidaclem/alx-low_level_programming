@@ -20,6 +20,30 @@ int _strlen(const char *b)
 
 
 
+
+/**
+*_pow - function to calculate number to power
+*@n: the number
+*@p: the power
+*Return: Returns n^p
+*/
+
+int _pow(int n, int p)
+{
+	int r, i;
+
+	r = n;
+	if (n == 0)
+		return (0);
+	else if (p == 0)
+		return (1);
+	for (i = 1; i < p; i++)
+		r *= n;
+	return (r);
+}
+
+
+
 /**
 *binary_to_uint - function that converts binary to decimal
 *@b: pointer to the string of binary number to convert
@@ -46,7 +70,7 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 		if (c == '1')
 		{
-			num += (1 * pow(2, --len));
+			num += (1 * _pow(2, --len));
 		}
 		else
 		{
