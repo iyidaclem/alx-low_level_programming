@@ -31,9 +31,9 @@ unsigned int count_bit(unsigned long int n, unsigned int init)
 
 int _get_bit(unsigned long int n, unsigned int index, unsigned int counter)
 {
-	unsigned long int num, dnum;
+	unsigned long int dnum;
 
-	num = n;
+/*	num = n; */
 	dnum = n >> 1;
 	if (dnum > 0 && counter < index)
 	{
@@ -41,7 +41,8 @@ int _get_bit(unsigned long int n, unsigned int index, unsigned int counter)
 	}
 	if (index > counter)
 		return (-1);
-	return (num - (2 * dnum));
+/*	return (num - (2 * dnum));*/
+	return (n & 1);
 }
 
 /**
