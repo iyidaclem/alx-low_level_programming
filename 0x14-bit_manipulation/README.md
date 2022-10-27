@@ -1,4 +1,4 @@
-#C - Bit manipulation
+## C - Bit manipulation
 # `~, &, |, >>`
 This project is focused on bit wise operation
 
