@@ -28,6 +28,7 @@ unsigned int count_bit(unsigned long int n, unsigned int init)
 *@counter: conter to detect the index
 *Return: a bit (0 or 1)
 */
+
 int _get_bit(unsigned long int n, unsigned int index, unsigned int counter)
 {
 	unsigned long int num, dnum;
@@ -49,7 +50,10 @@ int _get_bit(unsigned long int n, unsigned int index, unsigned int counter)
 *@index: index of the bit
 *Return: returns the bit
 */
+
 int get_bit(unsigned long int n, unsigned int index)
 {
+	if(n == 0)
+		return (0);
 	return (_get_bit(n, index, 0));
 }
