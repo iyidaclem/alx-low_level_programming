@@ -19,3 +19,8 @@ Prototype: void print_binary(unsigned long int n);\
 Format: see example You are not allowed to use arrays\
 You are not allowed to use malloc\
     You are not allowed to use the % or / operators
+
+## [`3-set_bit.c`](3-set_bit.c)
+Write a function that sets the value of a bit to 1 at a given index.\
+	      Prototype: int set_bit(unsigned long int *n, unsigned int index);\
+	      where index is the index, starting from 0 of the bit you want to set
