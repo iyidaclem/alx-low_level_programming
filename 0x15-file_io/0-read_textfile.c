@@ -23,7 +23,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (str == NULL)
 		return (0);
 	i = read(fd, str, letters);
-	if (i != -1)
-		return (dprintf(1, "%s", str));
-	return (0);
+	if (i == -1)
+		return (0);
+	i = dprintf(1, "%s", str);
+	close(fd);
+	free(str);
+	return (i);
 }
