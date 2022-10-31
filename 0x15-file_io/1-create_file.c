@@ -18,6 +18,8 @@ int create_file(const char *filename, char *text_content)
 
 	if (fd == -1)
 		i = -1;
+	if(!text_content)
+		text_content = "";
 	j = write(fd, text_content, strlen(text_content));
 	if (j == -1)
 		i = -1;
