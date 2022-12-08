@@ -17,3 +17,6 @@ Add node at the end of a doubly linked list
 
 ## [`4-free_dlistint.c`](4-free_dlistint.c)
 function that frees a dlistint_t list.
+
+## [`5-get_dnodeint.c`](5-get_dnodeint.c)
+get nth node of a linked list
