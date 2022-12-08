@@ -26,3 +26,6 @@ Sum of doubly linked list
 
 ## [`7-insert_dnodeint.c`](7-insert_dnodeint.c)
 Insert node at a given index
+
+## [`8-delete_dnodeint.c`](8-delete_dnodeint.c)
+Delete at index
