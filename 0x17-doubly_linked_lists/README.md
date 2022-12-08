@@ -11,3 +11,6 @@ returns the number of elements in a linked dlistint_t list.
 
 ## [`2-add_dnodeint.c`](2-add_dnodeint.c)
 adds a new node at the beginning of a dlistint_t list.
+
+## [`3-add_dnodeint_end.c`](3-add_dnodeint_end.c)
+Add node at the end of a doubly linked list
