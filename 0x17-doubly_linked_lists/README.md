@@ -20,3 +20,6 @@ function that frees a dlistint_t list.
 
 ## [`5-get_dnodeint.c`](5-get_dnodeint.c)
 get nth node of a linked list
+
+## [`6-sum_dlistint.c`](6-sum_dlistint.c)
+Sum of doubly linked list
