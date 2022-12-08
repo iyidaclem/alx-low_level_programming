@@ -23,3 +23,6 @@ get nth node of a linked list
 
 ## [`6-sum_dlistint.c`](6-sum_dlistint.c)
 Sum of doubly linked list
+
+## [`7-insert_dnodeint.c`](7-insert_dnodeint.c)
+Insert node at a given index
