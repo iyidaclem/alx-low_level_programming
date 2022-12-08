@@ -14,3 +14,6 @@ adds a new node at the beginning of a dlistint_t list.
 
 ## [`3-add_dnodeint_end.c`](3-add_dnodeint_end.c)
 Add node at the end of a doubly linked list
+
+## [`4-free_dlistint.c`](4-free_dlistint.c)
+function that frees a dlistint_t list.
