@@ -33,3 +33,4 @@ The following projects were covered in this module
 | [`0x15-file_io`](0x15-file_io)|0x15-file_io|
 | [`0x17-doubly_linked_lists`](0x17-doubly_linked_lists) | C - Doubly linked lists|
 | [`0x18-dynamic_libraries`](0x18-dynamic_libraries) | C - Dynamic libraries|
+| [`0x1A-hash_tables`](0x1A-hash_tables) | C - Hash tables|
