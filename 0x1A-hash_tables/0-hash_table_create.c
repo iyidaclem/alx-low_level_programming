@@ -6,17 +6,17 @@
 * Returns: point to the hash table
 */
 
-hash_table_t *hash_table_create(unsigned long int size);
+hash_table_t *hash_table_create(unsigned long int size)
 {
-	int i;
-	hash_table_s *ht = (hash_table_s *) malloc(sizeof(hash_node_s));
+	size_t i;
+	hash_table_t* ht = malloc(sizeof(hash_table_t));
 
 	if (!ht)
 	{
 		return (NULL);
 	}
 	ht->size = size;
-	ht->array = (hash_node_s **) calloc(size, sizeof(hash_node_s *));
+	ht->array = calloc(size, sizeof(hash_node_t**));
 	if (!ht->array)
 	{
 		free(ht);
