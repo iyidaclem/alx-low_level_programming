@@ -5,3 +5,6 @@ function that creates hash table
 
 ## [`1-djb2.c`](1-djb2.c)
 hash function based on djb2 algorithm
+
+## [`2-key_index.c`](2-key_index.c)
+Calculate key index
