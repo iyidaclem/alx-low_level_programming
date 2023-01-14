@@ -11,3 +11,6 @@ Calculate key index
 
 ## [`3-hash_table_set.c`](3-hash_table_set.c)
 Insert into a hash table
+
+## [`4-hash_table_get.c`](4-hash_table_get.c)
+function that retrieves a value associated with a key.
