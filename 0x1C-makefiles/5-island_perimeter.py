@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
-"""Module for calculating perimeter of island"""
+#!/usr/bin/python3
+""" Module that contains the island_perimeter function """
 
 
 def island_perimeter(grid):
