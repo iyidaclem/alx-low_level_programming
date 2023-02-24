@@ -1,8 +1,10 @@
 CC = gcc
 SRC = main.c school.c
+OBJ = school.o main.o
+NAME = school
 
-school: school.o main.o
-	$(CC) -o school school.o main.o
+$(NAME): school.o main.o
+	$(CC) -o $(NAME) $(OBJ)
 
 school.o: $(SRC)
 	$(CC) -c $(SRC)  m.h
