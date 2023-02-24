@@ -1,12 +1,12 @@
 CC = gcc
 SRC = main.c school.c
-OBJ = *.o
+OBJ = main.o school.o
 NAME = school
 
-$(NAME): school.o main.o
+$(NAME): $(OBJ)
 	$(CC) -o $(NAME) $(OBJ)
 
-school.o: $(SRC)
+school.o: $(SRC) m.h
 	$(CC) -c $(SRC)  m.h
 
 all: school clean
