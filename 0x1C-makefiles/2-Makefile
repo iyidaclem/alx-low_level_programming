@@ -9,7 +9,7 @@ $(NAME): $(OBJ)
 school.o: $(SRC) m.h
 	$(CC) -c $(SRC)  m.h
 
-all: school clean
+all: $(NAME) clean
 
 .PHONY: clean
 
