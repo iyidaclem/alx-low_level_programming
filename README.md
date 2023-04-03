@@ -35,4 +35,3 @@ The following projects were covered in this module
 | [`0x18-dynamic_libraries`](0x18-dynamic_libraries) | C - Dynamic libraries|
 | [`0x1A-hash_tables`](0x1A-hash_tables) | C - Hash tables|
 | [`0x1C-makefiles`](0x1C-makefiles) | C - Makefiles|
-| [`0x10-python-network_0`](0x10-python-network_0) | Python - Network #0 |
